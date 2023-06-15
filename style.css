@@ -1,0 +1,134 @@
+#animacao{
+    position: absolute;
+    background-image: url(img/esquerda-removebg-preview.png);
+    width: calc(730px/4);
+    height: 170px;
+    top: 50%;
+    left: 50%;
+    animation: animate 1.7s steps(4) infinite;
+    
+}
+
+@keyframes animate
+{
+    from { background-position: 0px; }
+    to { background-position: 730px; }
+}
+.move{
+    position: relative;
+    animation: mov-div 20s infinite;
+}
+
+
+@keyframes mov-div {
+    0%   {top: 0px; left: 0px; opacity: 100%;}
+
+    15.99%   {top: 0px; left: -400px; opacity: 100%;}
+    16%   {top: 0px; left: -400px; opacity: 0%;}
+    20%   {top: 0px; left: -400px; opacity: 0%;}
+
+  
+
+    100% {top: 0px; left: -400px; opacity: 0%; }
+  }
+  #animacao-2{
+    position: absolute;
+    background-image: url(img/baixo-removebg-preview.png);
+    width: calc(730px/4);
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    animation: animate-2 1.7s steps(4) infinite;
+    
+}
+
+@keyframes animate-2
+{
+    from { background-position: 0px; }
+    to { background-position: 730px; }
+}
+.move-2{
+    position: relative;
+    animation: mov-div-2 20s infinite;
+}
+@keyframes mov-div-2 {
+    0%   {top: 0px; left: -400px; opacity: 0%;}
+
+    14.99%{top: 0px; left: -400px; opacity: 0%;}
+
+    15%   {top: 0px; left: -400px; opacity: 100%;}
+
+    30%{top: 0px; left: -400px; opacity: 100%;}
+
+    40%{top: 0px; left: -400px; opacity: 100%;}
+
+  
+    69.99% {top: 400px; left: -400px; opacity: 100%; }
+    80% {top: 400px; left: -400px; opacity: 0%; }
+    100% {top: 400px; left: -400px; opacity: 0%; }
+
+  }
+  #animacao-3{
+    position: absolute;
+    background-image: url(img/direita-removebg-preview.png);
+    width: calc(730px/4);
+    height: 170px;
+    top: 50%;
+    left: 50%;
+    animation: animate-2 1.7s steps(4) infinite;
+    
+    
+}
+.move-3{
+    position: relative;
+    animation: mov-div-3 20s infinite;
+}
+@keyframes mov-div-3 {
+    0%  {top: 400px; left: -400px; opacity: 0%; }
+
+
+    24.99%{top: 400px; left: -400px; opacity: 0%;}
+    35%{top: 400px; left: -400px; opacity: 0%;}
+    55%{top: 400px; left: -400px; opacity: 0%;}
+    70%{top: 400px; left: -400px; opacity: 0%;}
+     
+    75%   {top: 400px; left: -400px; opacity: 100%;}
+    90%{top: 400px; left: 400px; opacity: 100%;}
+    95%{top: 400px; left: 400px; opacity: 0%;}
+    100%{top: 400px; left: 400px; opacity: 0%;}
+
+  }
+body{
+    background-image:url(img/mapa.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 1420px;
+    height: 780px;
+    overflow:y;
+}
+#animacao-4{
+    position: absolute;
+    background-image: url(img/cima-removebg-preview.png);
+    width: calc(730px/4);
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    animation: animate-2 1.7s steps(4) infinite;
+    
+    
+}
+.move-4{
+    position: relative;
+    animation: mov-div-4 20s infinite;
+}
+@keyframes mov-div-4 {
+    0%{top: 400px; left: 400px; opacity: 0%;}
+    24.99%{top: 400px; left: 400px; opacity: 0%;}
+    86.99%{top: 400px; left: 400px; opacity: 0%;}
+    
+    90%{top: 400px; left: 400px; opacity: 100%;}
+   
+    100%{top: 0px; left: 400px; opacity: 100%;}
+    
+  }
